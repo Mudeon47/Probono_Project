@@ -1,4 +1,5 @@
 # Probono Project
+<img width="1440" alt="스크린샷 2023-01-20 오후 12 54 02" src="https://user-images.githubusercontent.com/105857999/213620456-e5a087ea-6be8-4722-98e8-fced354ccc4b.png">
 
 <br>
 
