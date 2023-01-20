@@ -1,67 +1,128 @@
-# Steammend Project
+# PLAY DATA TALK
 
-## 🎮프로젝트 소개
-유저들의 게임 플레이 내역을 기반으로 유사한 스팀게임 추천 및 대시보드, 커뮤니티 서비스 제공<br>
-👉 [steammed 더 알아보기](https://iamcoz.notion.site/Steammend-6596f5bc20df426ba522c44d26ffe3b0)
+<img width="525" alt="스크린샷 2022-11-17 오후 11 48 32" src="https://user-images.githubusercontent.com/105684835/202477865-d2f53246-6081-4ebf-ac36-f972c42ed785.png">
 
-## 📅 개발기간
-2022.10.19 - 2022.11.10
+<br>
 
-## ⚙️ 개발언어 및 프레임워크
-언어: Python, Java, JS, CSS/HTML<br>
-프레임워크: Flask, Spring Boot<br>
-데이터베이스: MySQL, Elastic Cloud
+## 📋 서비스
+### `PLAY DATA TALK`은 플레이데이터 학생들을 위한 소통공간입니다.
+#### 온오프라인, 기수, 교육과정 상관없이 모든 플레이데이터 학생들이 소통할 수 있는 공간을 만들고 싶었습니다.
 
-## 🤖 알고리즘 소개
-스팀게임 API를 사용하여 실시간으로 유저의 게임 플레이 데이터 정보 수집<br>
-NLP기법 중 하나인 TF-IDF 방법을 사용하여 Elastic Cloud에 저장된 인기게임들과 코사인 유사도를 측정<br>
-게임 플레이 시간이 가장 긴 5개의 게임과 유사도가 가장 높은 Top5게임 추천
+## ✏️ 목표
+
+- 기존 SNS와 유사한 글 작성, 삭제, 좋아요, 댓글 및 프로필 보기 구현
+- 글 작성 시 사용자가 직접 키워드를 작성해도 되지만 머신 러닝 모델을 통해 키워드 추천 받기
+- Search 기능을 통해 키워드가 들어간 게시 글 조회하기
+- 가장 많이 언급 된 키워드 상위 5개 시각화 하여 보여주기
+- AWS를 이용하여 배포하기 ❌ ➡️  비용, 성능 문제로 인해서 GCP(Google Cloud Platform)을 이용한 배포를 하기
+
+<br>
+
+## 👨‍👧‍👧 팀원
+
+- [한예찬](https://github.com/Hanecorin) : `FireBase 기반 회원가입, 로그인 구현 & Front & Back 통합 테스트, UI, 발표`
+- [최우성](https://github.com/perfumemakes) : Spring Boot 기반 REST API 개발, DataBase 구축
+- [김규리](https://github.com/jkl1212) : FireBase 기반 회원가입, 로그인 구현
+- [김민성](https://github.com/mswork0616) : 키워드 Leaning, GCP(Google Cloud Platform)이용 배포
+- [이세하](https://github.com/Mudeon47) : REST API 연동, React.JS 기반 Front 기능구현
+
+<br>
+
+## 🗓 프로젝트 기간
+2022.10.17 ~ 2022.11.10
+
+<br>
+
+## ⚙ 개발 환경
+
+- Front End : <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">  <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white">
+
+- Back End : <img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white">
+
+- Machine-learning : <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
+
+- Data Base : <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white">
+
+- Deployment : <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=GoogleCloud&logoColor=white">
+
+- IDE : <img src="https://img.shields.io/badge/Spring%20Tool%20Suite-6DB33F.svg?style=for-the-badge&logo=spring-ool-suite&logoColor=white"> <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white"> 
+
+- Communication Tools : <img src="https://img.shields.io/badge/Jira Software-0052CC.svg?style=for-the-badge&logo=Jira Software&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B.svg?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
+
+<br>
+
+## ⌗ Data Table
+
+![image](https://user-images.githubusercontent.com/105684835/202476929-9efe9416-c87c-43e0-aa0d-6cc1210a2393.png)
+
+<br>
+
+## 💁‍♂️ 기능 화면
+
+![image](https://user-images.githubusercontent.com/105684835/202464798-920cd5af-d89e-4ed2-8d62-db1c49a14af7.png)
+
+<img width="713" alt="스크린샷 2022-11-17 오후 11 53 10" src="https://user-images.githubusercontent.com/105684835/202479076-be0de902-b8f5-457d-9a78-51175fb95c30.png">
+
+
+### 로그인 및 회원가입페이지
+
+- Firebase를 이용한 로그인 및 회원가입
+  - FirebaseAuthentication 에 회원가입시 정보저장, 동시에 MySQL에도 똑같이 회원정보 저장
+  - Firebase를 이용하여 Email 중복, 비밀번호 자릿수 검증
+
+<br>
+
+![image](https://user-images.githubusercontent.com/105684835/202480224-a26c91ef-ffd5-4d9c-98ab-352aaa377b7e.png)
+
+<img width="696" alt="스크린샷 2022-11-18 오전 12 00 47" src="https://user-images.githubusercontent.com/105684835/202481041-d6233450-5ba0-433f-8ed8-93e7bd7f8225.png">
+
+### 메인페이지
+
+- 모든 사용자의 게시글 불러오기
+  - 위에서부터 최신글을 불러온다
+  - 좋아요 버튼 기능을 추가하여 좋아요,좋아요 취소를 가능하게 하였다.
+- 네비게이션 바를 고정시키고 게시글만 스크롤로 불러오게 구현하였다.
+  - 네비게이션 바에 메뉴들을 포함시켜 해당 기능들로 이동가능하게 만들었다.
+- 글쓰기 버튼을 누르면 작성페이지로 이동
+
+<br>
+
+<img width="710" alt="스크린샷 2022-11-18 오전 12 02 03" src="https://user-images.githubusercontent.com/105684835/202481334-96b2748c-f491-49ea-8645-8792cfecace4.png">
+
+- Search 기능을 통해 해쉬태그, 글 내용안에 포함되어있는 단어로 글을 검색한다.
+
+<br>
+
+![image](https://user-images.githubusercontent.com/105684835/202481611-8f171f20-4e04-403e-bb4d-f7a86791bdba.png)
+
+- Keyword 메뉴에선 지금까지 등록된 키워들을 집계하여 그래프로 보여준다.
+  - 집계수가 가장 높은 키워드부터 보여준다.
   
-## 📌주요 기능 소개
-### 회원가입 기능
-- 회원가입(steamgame id 검색 가능)
-<img src="https://user-images.githubusercontent.com/76192858/212928456-c62b65da-799f-446f-9125-3b06cb712789.png" width="800" height="400"/>
- 
-- 로그인/로그아웃
-<img src="https://user-images.githubusercontent.com/76192858/212929068-46d2540d-8bd2-42a9-8376-a9fdfec410f0.png" width="800" height="400"/>
- 
-### 검색 기능
-- 인기, 무료, 세일, 최신 게임 조회(게임 누르면 스팀공식홈페이지의 해당 게임으로 연동)
-<img src="https://user-images.githubusercontent.com/76192858/212885379-6a99ce92-b245-42ca-b3bd-007b1eb16200.png" width="800" height="400"/>
+<br>
 
-- 가격, 연령, 장르별 커스터마이징 가능(게임 누르면 스팀공식홈페이지의 해당 게임으로 연동)
-<img src="https://user-images.githubusercontent.com/76192858/212886948-3b8367d2-a63f-43a8-bda8-ea33240a9aba.png" width="800" height="400"/>
+![image](https://user-images.githubusercontent.com/105684835/202482023-8f14ddfe-66a1-4ef5-a1f7-1da0f10eb861.png)
+
+<img width="700" alt="스크린샷 2022-11-18 오전 12 04 56" src="https://user-images.githubusercontent.com/105684835/202482070-325a01e8-81e7-4147-9287-06fe69d4edcc.png">
+
+
+- Profile 메뉴를 통해 자신의 Profile 확인, 자신의 게시글 확인.
+  - 닉네임 수정을 버튼을눌러 닉네임 수정을 가능하게 하였다.
+  - 자신의 게시글을 수정/삭제 할 수 있다.
+  - 접속시 가입했던 email 주소를 보여준다.
+
+<br>
+
+<img width="704" alt="스크린샷 2022-11-18 오전 12 07 27" src="https://user-images.githubusercontent.com/105684835/202482652-7b5b38e0-e6d6-4397-b228-a8bdf82912ca.png">
+
+<img width="697" alt="스크린샷 2022-11-18 오전 12 07 46" src="https://user-images.githubusercontent.com/105684835/202482739-10da9936-3ab8-42de-bece-4d35c4d72dfc.png">
+
+- 글쓰기 버튼을 통해 글을 작성할 수 있다.
+  - 글 내용을 입럭하고 키워드추천 버튼을 누르면 내용에 어울리는 키워드가 3개 생성된다.
+  - 저장 후 게시물 업로드가 되어있고 수정/삭제가 가능하다.
   
-### 커뮤니티 기능
-- 게시글 작성 및 수정,삭제
-<img src="https://user-images.githubusercontent.com/76192858/212929372-7175ae70-b099-4ac1-a936-72d6f175eb65.png" width="800" height="400"/> 
-<img src="https://user-images.githubusercontent.com/76192858/212926986-643bc129-45ae-4dc3-a18b-c3753524a071.png" width="800" height="400"/>  
-
-- 댓글 작성 및 수정, 삭제
-<img src="https://user-images.githubusercontent.com/76192858/212952593-b511ed3f-fc5f-4888-9461-19162e658ab0.png" width="800" height="400"/>  
-
-### 게임 추천 서비스
-- 메인페이지
-<img src="https://user-images.githubusercontent.com/76192858/212930706-efe531a7-fff6-4a2f-a7c9-431ff3e0585d.png" width="800" height="400"/>  
-
-- 대시보드 페이지
-<img src="https://user-images.githubusercontent.com/76192858/212953033-23c500cc-f228-49dd-9ef6-6c760ee87dba.png" width="800" height="400"/>  
-
-### 대시보드 시각화 서비스
-<img src="https://user-images.githubusercontent.com/76192858/212931051-6840ef01-a2d3-4da6-9598-7d732db6147e.png" width="800" height="400"/> 
-<img src="https://user-images.githubusercontent.com/76192858/212931320-f61f903a-ec81-475a-82b5-7232a902cccf.png" width="800" height="400"/> 
+  
+<br>
 
 
-
-## ⚙️ python 가상환경 세팅
-
-#### 가상환경 설치 및 실행 
-```
-C:\project>python -m venv [가상환경 이름]
-C:\project>cd [가상환경 이름]
-C:\project>Script\activate.bat
-```
-#### requirments.txt를 가상환경 프로젝트 폴더 안에 저장 후
-```
-pip install -r requirements.txt
-```
+## 🎞 시연 영상
+[![PLAY DATA TALK 서비스 시연영상](https://user-images.githubusercontent.com/105684835/202490662-7b7f7de0-87a4-4312-84c5-055bde0ae260.png)](https://youtu.be/Rx2oEc5BLsc)
